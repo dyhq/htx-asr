@@ -1,0 +1,10 @@
+services:
+  asr-api:
+    container_name: asr-api
+
+    build: .
+    
+    ports:
+      - "8001:8001"
+
+    restart: unless-stopped
