@@ -120,7 +120,9 @@ htx-asr-project/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── essay.pdf                    # Model monitoring essay
+├── common_voice/
+│   ├── cv-valid-dev/
+│   └── cv-valid-dev.csv
 ├── asr/
 │   ├── asr_api.py              # FastAPI service
 │   ├── cv-decode.py            # Batch transcription script
